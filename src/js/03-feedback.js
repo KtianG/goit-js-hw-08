@@ -19,7 +19,6 @@ const inputHandler = () => {
   const state = { email: emailState, message: messageState };
 
   localStorage.setItem('feedback-form-state', JSON.stringify(state));
-  console.log(localStorage.getItem('feedback-form-state'));
 };
 
 //Po wysłaniu formularza wyczyść storage i pola formularza,
